@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="Practice-6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/stylesheets/css2.css?family=Poppins&display=swap" />
+    <link rel="stylesheet" href="/scripts/bootstrap-icons-1.10.5/font/bootstrap-icons.css ">
+    <link rel="stylesheet" href="/scripts/fontawesome-free-6.4.0-web/css/all.min.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- Section of navbar -->
+
+    <section id="header-area" class="container-fluid bg-white header-transparnet sticky sticky-bar">
+        <nav class="navbar navbar-light navbar-expand-xl">
+            <div class="container-xxl pe-sm-0">
+                <a class="navbar-brand p-0 m-0 ms-5 me-5" href="#intro">
+                    <h5 id="h3" class="fw-bold p-0 m-0"><img height="40px" src="/Images/logo.png" alt=""></h5>
+                </a>
+                <div class="d-none d-md-block">
+                    <div class="input-main d-flex align-items-center"> <!-- start search bar  -->
+                        <div class="div-bor rounded-3 ">
+                            <input class="input-search border-0 ps-2" type="text" placeholder="Search...">
+                            <button type="submit" class="btn p-2 border-0">
+                                <i class="fa-solid icon-colour fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <div class="d-xl-none ms-sm-2 ms-5">
+                            <div class="d-flex align-items-center">
+                                <div class="me-2">
+                                    <a href="">
+                                        <a id="plokj" class="nav-link fw-bold dropdown-toggle" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #5d568c"
+                                            href="#Following">
+                                            ENG</a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                </div>
+                                <div class="position-relative">
+                                    <img height="40px" class="rounded-circle" src="Images/1.jpg" alt=""></a>
+                                    <i class="fa-regular icon-nav text-light fa-circle-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-end align-items-center navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item p-2 dropdown">
+                            <a id="plokj" class="nav-link fw-bold" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: #5d568c" href="#Home">
+                                Home </a>
+                        </li>
+                        <li class="nav-item p-2 dropdown">
+                            <a id="plokj" class="nav-link fw-bold dropdown-toggle" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: #5d568c" href="#Profile">
+                                Explore</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-2 dropdown">
+                            <a id="plokj" class="nav-link fw-bold dropdown-toggle" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: #5d568c" href="#Blog">
+                                Community</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-2 dropdown">
+                            <a id="plokj" class="nav-link fw-bold dropdown-toggle" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: #5d568c" href="#Blog">
+                                Pages</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-2 dropdown">
+                            <a id="plokj" class="nav-link fw-bold" role="button" aria-expanded="false"
+                                style="color: #5d568c" href="#Following">
+                                Activity</a>
+                        </li>
+                        <li class="nav-item p-2 d-block d-md-none d-flex">
+                            <div class="div-bor rounded-3">
+                                <input class="input-search border-0 ps-2" type="text" placeholder="Search...">
+                                <button type="submit" class="btn p-2 border-0">
+                                    <i class="fa-solid icon-colour fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none p-2 d-lg-none d-xl-block">
+                    <div class="d-flex align-items-center">
+                        <div class=" me-2">
+                            <a href="">
+                                <a id="plokj" class="nav-link fw-bold dropdown-toggle" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="color: #5d568c"
+                                    href="#Following">
+                                    ENG</a>
+                                <ul class="dropdown-menu border-0">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                        </div>
+                        <div class="position-relative">
+                            <img height="40px" class="rounded-circle" src="Images/1.jpg" alt=""></a>
+                            <i class="fa-regular icon-nav text-light fa-circle-check"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- Section of Hero -->
+
+
+    <section class="section-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 justify-content-center text-left d-flex flex-column">
+                    <div class="product_heading pt-200 ml-20 mt-20 text-left"">
+                        <h2 class="fw-bold product_page_subtitle
+                        ">NFT Marketplace <br> Explore, Collect or Sell</h2>
+                    </div>
+                    <div class="header-description mt-4">
+                        <p class="header-paragraph fw-bold ">
+                            Connect
+                            <i class="fa-solid fa-arrow-right" style="color: #6e6b8b;"></i>
+                            Explore
+                            <i class="fa-solid fa-arrow-right" style="color: #6e6b8b;"></i>
+                            Earn
+                        </p>
+                    </div>
+                    <div class="header-btn">
+                        <a href="wallet.html" class="btn btn-wallet btn_all_nft_product">Add Wallet <i
+                                class="fa-solid icon-head text-light fa-arrow-right"></i>
+                        </a>
+                        <a href="wallet.html" class="btn btn-wallet account_btn">Upload Art</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="counter-up header">
+                                <div class="counter_heading">
+                                    <p class="count-text mb-0">Art Works</p>
+                                    <div class="counter_text header">
+                                        <span class="counter-to" data-to="2597" data-speed="4000">2597</span>k
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter-up header">
+                                <div class="counter_heading">
+                                    <p class="count-text mb-0">Live Auctions</p>
+                                    <div class="counter_text header">
+                                        <span class="counter-to" data-to="2597" data-speed="4000">997</span> Items
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter-up header">
+                                <div class="counter_heading">
+                                    <p class="count-text mb-0">Creators Earning</p>
+                                    <div class="counter_text header">
+                                        <span class="counter-to" data-to="2597" data-speed="4000">342</span>M USD
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-5 col-sm-12 px-5">
+                    <div class="header-right pt-50">
+                        <img src="/Images/header-right.jpg" class="responsive-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Section of Category -->
+
+
+    <section class="browse-category">
+        <div class="container">
+            <div class="section_title text-center">
+                <h4 class="section-subtitle">Browse by category to choose your file. More than <br> 4 Millions people
+                    love us without hesitation.</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-regular icon-category fa-image"></i>
+                        </span>
+                        <span class="category_title">Art Works</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="bi bi-globe"></i>
+                        </span>
+                        <span class="category_title">Virtual World</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="bi bi-dice-3"></i>
+                        </span>
+                        <span class="category_title">3D Art</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="bi bi-book"></i>
+                        </span>
+                        <span class="category_title">Books</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span class="category_title">Domains</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-music"></i>
+                        </span>
+                        <span class="category_title">Music</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                        </span>
+                        <span class="category_title">Nature</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-archway"></i>
+                        </span>
+                        <span class="category_title">3D Modeling</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-bowling-ball"></i>
+                        </span>
+                        <span class="category_title">Illustration</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </span>
+                        <span class="category_title">Galaxy</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="bi bi-camera2"></i>
+                        </span>
+                        <span class="category_title">Discovery</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 div-category">
+                    <a href="" class="single_category category_box1">
+                        <span class="category_icon">
+                            <i class="fa-solid fa-file-signature"></i>
+                        </span>
+                        <span class="category_title">Animation</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section of NFT Products -->
+
+
+    <section id="nft_product_part" class="nft-product-area">
+        <div class="container pt-50">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 pb-10">
+                    <div class="section-intro">
+                        <p class="section_top_title">
+                            <i class="fa-solid me-4 fa-circle"></i> Live Auction
+                        </p>
+                        <h2 class="section_heading ">NTFs Products</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="section_description">
+                        <p>
+                            Explore on the world's best & largest NFT marketplace with our beautiful NFT products. We
+                            want to be a part of your smile, success and future growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/2.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/1.jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+									<li class="nav-item">									
+										<a href="author-details.html" class="author_link">
+											<img src="Images/3.jpg" alt="author" class="responsive-fluid img-2">
+											<i class="bi bi-check-circle"></i>
+										</a>	
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@manila007</a>
+										</span>								
+									</li>
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/4.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/3 (1).jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/5.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/4 (1).jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+									<li class="nav-item">									
+										<a href="author-details.html" class="author_link">
+											<img src="Images/5 (1).jpg" alt="author" class="responsive-fluid img-2">
+											<i class="bi bi-check-circle"></i>
+										</a>	
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@manila007</a>
+										</span>								
+									</li>
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/6.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/4 (1).jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+									<li class="nav-item">									
+										<a href="author-details.html" class="author_link">
+											<img src="Images/5 (1).jpg" alt="author" class="responsive-fluid img-2">
+											<i class="bi bi-check-circle"></i>
+										</a>	
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@manila007</a>
+										</span>								
+									</li>
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/7.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/6 (1).jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+									<li class="nav-item">									
+										<a href="author-details.html" class="author_link">
+											<img src="Images/7 (1).jpg" alt="author" class="responsive-fluid img-2">
+											<i class="bi bi-check-circle"></i>
+										</a>	
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@manila007</a>
+										</span>								
+									</li>
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="single_product mt-50 pb-30">
+                        <div class="jumbotron countdown show d_1" data-date="2022/09/24 23:59:59"
+                            data-endtext="Auction ended" style="display: block;">Auction ended</div>
+                        <div class="profile-rating"> <!-- thumbsup rating -->
+                            <i class="bi bi-heart"></i>
+                            <span class="thumbsup">9.3k</span>
+                        </div>
+                        <div class="single_product_img"><!-- start single product img -->						
+							<a href="" class="theme_preview_link">
+								<img src="Images/8.jpg" alt="" class="responsive-fluid">						
+							</a>
+						</div>
+                        <div class="nft_product_description"><!-- start product description -->
+							<div class="nft_product_text">				
+								<ul class="author-profile-link"><!-- start author-->								
+									<li class="nav-item">
+										<a href="author-details.html" class="author_link offline">
+											<img src="Images/7 (1).jpg" alt="author" class="responsive-fluid img-1">
+											<i class="bi bi-check-circle"></i>
+										</a>
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@galaxy01</a>
+										</span>										
+									</li>						
+									<li class="nav-item">									
+										<a href="author-details.html" class="author_link">
+											<img src="Images/8 (1).jpg" alt="author" class="responsive-fluid img-2">
+											<i class="bi bi-check-circle"></i>
+										</a>	
+										<span class="hover_author_link">
+											<a href="author-details.html" class="author_link_text">@manila007</a>
+										</span>								
+									</li>
+								</ul>	
+							</div><!-- end author-->																		
+							<div class="product_title_link"><!-- start product title-->			
+								<a class="product-title" href="#">
+									<h6 class="product_title_intro">Mystetious Robotic Body Art</h6>	
+								</a>								
+							</div><!-- end product title-->
+                            <div class="nft_product_link"><!-- start product link -->					
+                                <ul>
+                                    <li class="product-all-icon">
+                                        <span class="item-history product-icon">											
+                                            <a href="#" class="item-history-btn" data-toggle="modal" data-target="#popup_history">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </a>											
+                                        </span>									
+                                    </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_share">
+                                                        <i class="bi bi-share-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="report-icon product-icon">
+                                                    <a href="#" class="report-link" data-toggle="modal" data-target="#popup_report">
+                                                        <i class="bi bi-flag-fill"></i>
+                                                    </a>
+                                            </span>	
+                                        </li>
+                                        <li class="product-all-icon">										
+                                            <span class="sale-count product-icon">
+                                                    <span class="sale-counter">Unit : 22.5 ETH 1/12</span>	
+                                            </span>	
+                                        </li>										
+                                </ul>
+                            </div>
+                            <div class="place-bid"><!-- start place bid -->
+                                <a href="#" class="placebid price" data-toggle="modal" data-target="#popup_bid">Bid Now</a>
+                            </div>		
+						</div>  
+
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-12 pt-50 pb-30">
+                    <div class="all_nft-product-area text-center">
+                        <a href="explores.html" class="btn btn_all_nft_product">View All Items <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="/scripts/bootstrap.bundle.min.js"></script>
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/279c9c1a29.js"></script>
+    <script src="Practice-6.js"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
